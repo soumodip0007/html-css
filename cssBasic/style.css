@@ -1,0 +1,61 @@
+body {
+    background-color:rgb(165, 221, 9);
+}
+
+h1{
+    color: #FF4800;
+    background-color: rgb(255,235,205);
+    font-size: 50px;
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* text-decoration: none; */
+    font-family: 'Broadway';
+    text-align: center; 
+    /* text-align: left; 
+    text-align: right; */
+}
+h2{
+    color: rgb(255,72,0);
+    background-color: #FFCEBD;
+    font-size: 40px;
+    /* text-decoration: none; */
+    /* text-decoration: line-through; */
+    /* text-decoration: underline;  */
+    font-family: 'Algerian';
+    text-align: center; 
+    /* text-align: left;  */
+    /* text-align: right; */
+}
+p{
+    /* font-weight: bold; */
+    background-color: cyan;
+    color:black;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 2;
+    column-gap: 60px;
+}
+ul{
+    /* border-width: 20px;
+    border-style: ridge;
+    border-color:#ea3f18;  */
+    border: 20px ridge #ea3f18; 
+    /* border-radius: 10px; */
+     /* border-bottom:4px solid crimson ;  */
+     /* border-left: 4px ridge crimson;  */
+     /* border-top: 4px dotted crimson; */
+     /* border-right: 4px dashed crimson ; */
+
+}
+li{
+    /* list-style-type: square; */
+    /* text-shadow: 1px 1px 1px rgb(165, 2, 2) ; */
+    /* text-shadow: 0.5px  0.5px red ; */
+}
+
+
+
+
+
+/* For use font family use w3schools.com for easy font use obviously go through wordPad fonts */

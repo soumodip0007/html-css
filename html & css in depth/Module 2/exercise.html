@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Little Lemon</title>
+    <style>
+        * {
+  font-family: Monaco;
+}
+
+.menu, .ll {
+  text-align: center;
+  color: #fa9f42;
+}
+
+.ll {
+  font-size: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #495e57;
+}
+
+.menu-container {
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e2;
+}
+
+.section {
+  padding: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.description {
+  font-style: italic;
+  border-top: 2px solid #495e57;
+}
+
+.item-name {
+  margin: 25px;
+  font-size: 12px;
+}
+
+b {
+  float: right;
+  margin-top: -15px;
+  color: darkcyan;
+}
+
+div > h3 {
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  color: #495e57;
+}
+
+.label + .low {
+  color: brown;
+}
+
+div ~ div {
+  color: rgb(90, 90, 90);
+}
+    </style>
+</head>
+
+<body>
+    <div class="ll"> Little Lemon </div>
+    <div class="menu"> Menu </div>
+    <div class="menu-container">
+    
+        <!-- Section starts: Tacos -->
+        <div class="section">
+            
+            <h3 class="meal-type">Tacos</h2>
+                <!-- Item Starts -->
+                <div class="item-name">
+                    
+                    <div class="label">Carne Asada</div>
+                    <b class="low">$10</b>
+                    <div class="description"> Un taco bien perron y sabroso.</div>
+                </div>
+
+                <div class="item-name">
+                    <div class="label">Al Pastor</div>
+                    <b>$10</b>
+                    <div class="description"> Un taco bien perron y sabroso.</div>
+                </div>
+
+                <div class="item-name">
+                    <div class="label">Cabeza</div>
+                    <b class="low">$10</b>
+                    <div class="description">Un taco bien perron y sabroso.</div>
+                </div>
+
+                <div class="item-name">
+                    <div class="label">Lengua</div>
+                    <b>$10</b>
+                    <div class="description">Un taco bien perron y sabroso.</div>
+                </div>
+                <!-- Item Ends -->
+
+        </div>
+        <!-- Section ends: Tacos -->
+
+        <!-- Section starts: Burritos -->
+        <div class="section">
+            <h3 class="meal-type">Burritos</h2>
+                <!-- Item Starts -->
+                <div class="item-name">
+                    <div class="label">Chicken</div>
+                    <b>$12</b>
+                    <div class="description"> Un burrito bien perron y sabroso.</div>
+                </div>
+
+                <div class="item-name">
+                    <div class="label">Bean and Cheese</div>
+                    <b>$12</b>
+                    <div class="description">Un burrito bien perron y sabroso.</div>
+                </div>
+
+                <div class="item-name">
+                    <div class="label">Veggie</div>
+                    <b>$12</b>
+                    <div class="description">Un burrito bien perron y sabroso.</div>
+                </div>
+                <!-- Item Ends -->
+
+        </div>
+        <!-- Section ends: Tacos -->
+
+    </div>
+</body>
+</html>

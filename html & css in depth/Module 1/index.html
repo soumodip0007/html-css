@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta property="og:title" content="Our Menu">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://www.google.com/">
+    <meta property="og:description" content="Little Lemon">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+    <style>
+        input:invalid {
+            border: 2px solid red;
+        }
+
+        /* input:focus {
+            border: 2px solid red;
+        } */
+    </style>
+</head>
+
+<body>
+    <form method="post">
+        <div>
+            <label for="booking_date">Booking Date</label>
+            <input type="date" id="booking_date" name="booking_date">
+        </div>
+        <div>
+            <label for="booking_people">Booking People</label>
+            <input type="range" id="booking_people" name="booking_people" min="1" max="10" value="4"
+                oninput="this.nextElementSibling.value = this.value">
+            <output>4</output>
+        </div>
+        <div>
+            <label for="booking_location">Booking Location</label>
+            <input id="booking_location" name="booking_location" list="locations">
+            <datalist id="locations">
+                <option value="Downtown"></option>
+                <option value="Uptown"></option>
+            </datalist>
+        </div>
+
+        <fieldset id="size">
+            <input type="radio" name="size" value="2"> 2-person table
+            <input type="radio" name="size" value="4" checked> 4-person table
+            <input type="radio" name="size" value="6"> 6-person table
+        </fieldset>
+        <fieldset id="loaction">
+            <input type="radio" name="loaction" value="indoors"> Indoors
+            <input type="radio" name="loaction" value="outdoors"> Outdoors
+        </fieldset>
+        <button type="submit">Book table</button>
+        <label for="user">Username:</label><br>
+        <input type="text" id="user" name="user" required minlength="3" maxlength="12"><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass" required minlength="5"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <audio loop controls>
+        <source src="music.ogg" type="audio/ogg">
+    </audio>
+    <br><br>
+    <video width="320" height="240" controls muted>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <br>
+    <video controls width="320" height="240">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <form>
+        <div>
+            <label for="rating">Rating</label>
+            <input type="range" min="1" max="5" id="rating" name="rating" list="ratings">
+            <datalist id="ratings">
+                <option value="1" label="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5" label="5"></option>
+            </datalist>
+        </div>
+        <button type="submit">Submit Rating</button>
+    </form>
+    <iframe src="java.png" width="320" height="128" sandbox allow="payment 'none'; camera 'none'; microphone 'none'"></iframe>
+    <canvas width="640" height="480" id="my_canvas">
+
+    </canvas>
+
+    <script src="animation.js"></script>
+</body>
+
+</html>

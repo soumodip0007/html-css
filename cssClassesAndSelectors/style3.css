@@ -1,0 +1,66 @@
+
+/* p{
+    color:blue;
+} */
+/* .first{
+  color:brown;
+} */
+/* div p.first{
+    color:blueviolet;
+} */
+/* p.second{
+    color: green;
+} */
+ /* p.third{
+    color:aqua;
+}  */
+ /* p.fourth.final{
+    color:red;
+    border: 1px solid green;
+} */
+/* div#content{
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+div p{
+    color:rgb(3, 3, 3);
+    margin: 20px;
+    border: 5px ridge rgb(0, 255, 183);
+    padding: 15px;
+}
+/* div .first{
+    color:cyan;
+}  */
+/* a[href]{
+    background-color: green;
+} */
+ /* a[href="https://www.google.com/"]{
+    background-color: green;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase; 
+} */
+/* a[href*="w3schools"]{
+    background-color:red;
+    color:white;
+    border:2px solid blue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+ /* div{
+    color:crimson;
+    border: 5px solid grey;
+    margin: 40px;
+    font-weight: bold;
+    background-color: black;
+} */
+/* div p{
+    border:inherit;
+    margin: inherit;
+    color: cyan;
+} */
+/* p{
+    color: orange;
+}  */

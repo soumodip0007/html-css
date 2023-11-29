@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .columns {
+    display: flex;
+    height: 400px;
+    max-width: 300px;
+    align-items: stretch;
+    border: 1px solid rgb(0, 0, 0);
+}
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+.bar {
+    border-right: 1px solid white;
+}
+.female {
+    background:#f4ce14;
+}
+.male {
+    background: #76988d;
+}
+    </style>
+    <link rel="stylesheet" href="index5.css">
+</head>
+<body>
+    <div class="columns">
+        <div class="container">
+            <div class="bar male" style="flex-basis
+            : 25%;"></div>
+            <div class="bar female" style="flex-basis
+            : 20%;"></div>
+        </div>
+        <div class="container">
+            <div class="bar male" style="flex-basis
+            : 45%;"></div>
+            <div class="bar female" style="flex-basis
+            : 40%;"></div>
+        </div>
+        <div class="container">
+            <div class="bar male" style="flex-basis
+            : 15%;"></div>
+            <div class="bar female" style="flex-basis
+            : 60%;"></div>
+        </div>
+        <div class="container">
+            <div class="bar male" style="flex-basis
+            : 5%;"></div>
+            <div class="bar female" style="flex-basis
+            : 60%;"></div>
+        </div>
+    </div>
+</body>
+</html>

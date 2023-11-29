@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .a {
+            margin: 30px;
+            transform: skewX(20deg);
+            transition: 5s;
+        }
+        .b {
+            margin: 100px;
+            transform: rotate(20deg);
+            transition: 5s;
+        }
+        .box {
+            display: grid;
+            width: 240px;
+            height: 240px;
+            margin: 100px;
+            background-color: rgb(1, 1, 210);
+            border-radius: 12px;
+            border: solid rgb(74, 74, 161) 4px;
+        }
+        .box:hover {
+            transform: rotateZ(60deg);
+            background-color: rgb(232, 72, 9);
+            opacity: 50%;
+            transition: 2s;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

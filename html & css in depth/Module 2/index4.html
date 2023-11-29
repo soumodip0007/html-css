@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .row {
+    display: flex;
+    align-items: stretch;
+}
+.row .label {
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row .container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.row .dish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pizza {
+    background-color: #f4ce14;
+}
+.pasta {
+    background-color: #ee9972;
+}
+.biriyani {
+    background-color: #76988d;
+}
+    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="index4.css">
+</head>
+<body>
+    <div class="row">
+        <div class="label">Preferred dishes</div>
+        <div class="container">
+            <div class="dish pasta" style="flex-basis
+            : 35%;">35%</div>
+            <div class="dish pizza" style="flex-basis
+            : 35%;">50%</div>
+            <div class="dish biriyani" style="flex-basis
+            : 35%;">15%</div>
+        </div>
+    </div>
+</body>
+</html>

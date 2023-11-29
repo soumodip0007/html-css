@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <label for="username">Enter User Name</label>
+        <input type="text" id="username" name="username" placeholder="Enter Your User Name" required>
+        <br><br>
+        <label for="email">Enter Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        <br><br>
+        <label for="password">Enter Your Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+    <h3>Select your Section</h3>
+        <input type="radio" name="Section" value="Section 1">Section 1<br>
+        <input type="radio" name="Section" value="Section 2">Section 2<br>
+        <input type="radio" name="Section" value="Section 3">Section 3<br>
+        <input type="radio" name="Section" value="Section 4">Section 4<br>
+        <input type="radio" name="Section" value="Section 5">Section 5<br>
+        <input type="radio" name="Section" value="Section 6">Section 6<br>
+        <br><br>
+        <label for="Question">Security Question:</label>
+        <select name="Question" id="Question">
+            <option value="Q1">What do you want to eat?</option>
+            <option value="Q2">What do you want to listen?</option>
+            <option value="Q3">What do you want to say?</option>
+            <option value="Q4">What do you want to find?</option>
+            <option value="Q5">What do you want to play?</option>
+        </select>
+        <br><br>
+
+        <label for="answer">Security Question Answer:</label>
+        <input type="text" id="answer" name="answer" placeholder="Give Your Answer" >
+
+        <br><br>
+        <label for="bio">Your bio</label><br>
+        <textarea name="bio" id="bio" cols="100" rows="25" placeholder="about you..." ></textarea>
+        <br><br>
+        <button>Submit The Form</button>
+        <br><br>
+        <input type="Submit" value="Submit The Form">
+    </form>
+</body>
+</html>

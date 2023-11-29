@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border: 2px solid black;
+    }
+
+    .box1 {
+      background-color: red;
+      z-index: 1;
+    }
+
+    .box2 {
+      background-color: blue;
+      z-index: 2;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box box1">Box 1</div>
+  <div class="box box2">Box 2</div>
+</body>
+</html>
